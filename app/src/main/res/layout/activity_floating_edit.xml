@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF9C4"
+    android:padding="14dp"
+    android:elevation="8dp">
+
+    <EditText
+        android:id="@+id/edit_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="4"
+        android:gravity="top|start"
+        android:hint="Write your note here..."
+        android:textColorHint="#757575"
+        android:background="@android:color/transparent"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:inputType="textMultiLine|textCapSentences" />
+</FrameLayout>
