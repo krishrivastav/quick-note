@@ -3,15 +3,14 @@
     android:id="@+id/widget_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF9C4"
-    android:padding="12dp">
+    android:background="@drawable/bg_widget_dark"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/widget_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Tap to type..."
-        android:textColor="#212121"
+        android:textColor="#E3E3E3"
         android:textSize="16sp" />
-</FrameLayout
-  >
+</FrameLayout>
