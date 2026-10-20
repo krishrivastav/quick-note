@@ -3,7 +3,7 @@
 
     <application
         android:label="QuickNote Widget"
-        android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
 
         <activity
             android:name=".FloatingEditActivity"
