@@ -1,4 +1,4 @@
-# 📝 QuickNote Widget
+# QuickNote Widget
 
 A lightweight, zero-bloat Android home screen note widget designed for instant inline-style editing. 
 
@@ -6,17 +6,16 @@ Because Android's `RemoteViews` architecture prevents software keyboards from at
 
 ---
 
-## ✨ Features
+## Features
 
 * **Instant Wallpaper Editing:** Tap the widget and start typing immediately—no splash screens, no app transitions, and no navigation menus.
 * **Auto-Save on Dismiss:** Simply tap anywhere outside the note box or press the back gesture to automatically save your note and update the widget.
 * **Material 3 Dark Surface:** Styled with Google's neutral dark charcoal palette (`#1E1F20` surface and `#E3E3E3` text) and `24dp` rounded corners to blend natively into modern Android home screens.
 * **Zero Background Drain:** Uses pure Android SDK classes (`Activity`, `AppWidgetProvider`, `SharedPreferences`) with zero external dependencies, background services, or internet permissions.
-* **100% Cloud-Compiled:** Built and released automatically via GitHub Actions—no local Android Studio setup required.
 
 ---
 
-## 📲 Installation & Usage
+## Installation & Usage
 
 1. Go to the [**Releases**](../../releases) section of this repository.
 2. Download the latest `QuickNoteWidget.apk` from the **Assets** dropdown and install it on your Android device.
@@ -27,7 +26,7 @@ Because Android's `RemoteViews` architecture prevents software keyboards from at
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ```text
 [Home Screen Widget (TextView)]
